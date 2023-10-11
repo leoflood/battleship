@@ -1,0 +1,39 @@
+.battleship-grid {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid orange;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-cell {
+  border: 1px solid #ccc;
+  background-color: white;
+  position: relative;
+}
+
+.hit-img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.ship-img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 9999;
+}
+
+.vertical {
+  transform: rotate(90deg);
+  transform-origin: top left;
+}

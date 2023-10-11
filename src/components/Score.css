@@ -1,0 +1,9 @@
+.players {
+  display: flex;
+}
+
+.player-box {
+  width: 150px;
+  background-color: orange;
+}
+
