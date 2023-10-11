@@ -7,7 +7,7 @@ This is a Vite application template with TypeScript. To get started, follow the 
 1. Navigate to the project directory:
 
    ```bash
-   cd battleship-app
+   cd battleship
    ```
 
 2. Install the project dependencies using npm:
